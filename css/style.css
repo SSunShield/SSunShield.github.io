@@ -1,0 +1,245 @@
+@font-face {
+	font-family: 'Minecraft Title Cyrillic Regular';
+	src: url('../fonts/minecraft_title_cyrillic_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/minecraft_title_cyrillic_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/minecraft_title_cyrillic_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/minecraft_title_cyrillic_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/minecraft_title_cyrillic_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/minecraft_title_cyrillic_regular.svg#minecraft_title_cyrillic_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+    font-family: 'Minecraft Rus';
+    src: url('../fonts/Minecraft.eot');
+    src: local('Minecraft Rus Regular'), local('Minecraft'),
+        url('../fonts/Minecraft.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Minecraft.woff2') format('woff2'),
+        url('../fonts/Minecraft.woff') format('woff'),
+        url('../fonts/Minecraft.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+}
+
+.promo {
+	position: relative;
+    background: url(../img/bg.jpg) center center / cover no-repeat;
+	width: 100%;
+	height: 70vh;
+}
+
+.promo_logo {
+	transform: scale(0.6);
+	position: absolute;
+	left: -58px;
+	top: -56px;
+}
+
+.promo_title {
+	color: #FFFFFF;
+	font-family: 'Minecraft Title Cyrillic Regular';
+	margin-left: 34%;
+	padding-top: 15%;
+	font-size: 70px;
+}
+
+.promo_subtitle {
+	color: #FFFFFF;
+	font-family: 'Minecraft Rus';
+	font-size: 27px;
+	margin-left: 42%;
+	padding-top: 10px;
+}
+
+.ip {
+	position: relative;
+	background: #595757 center center / cover no-repeat;
+	height: 50vh;
+}
+
+.ip_title {
+	color: #FFFFFF;
+	font-family: 'Minecraft Rus';
+	margin-left: 934px;
+	font-size: 30px;
+	padding-top: 100px;
+}
+
+.ip_divider {
+	position: absolute;
+	width: 50%;
+	height: 2px;
+	background-color: #888585;
+	margin-left: 25%;
+	top: 180px
+}
+
+.ip_ip {
+	color: #FFFFFF;
+	font-family: 'Minecraft Rus';
+	margin-left: 43%;
+	font-size: 25px;
+	padding-top: 5%;
+}
+
+.divider_second {
+	top: 300px;
+}
+
+@media (min-width: 1921px) {
+	.promo_title {
+		font-size: 83px;
+	}
+	.promo_subtitle {
+		font-size: 34px;
+		margin-left: 41%;
+	}
+	.ip_title {
+		padding: 0;
+		font-size: 43px;
+		padding-top: 58px;
+		margin-left: 1207px;
+	}
+	.ip_ip {
+		font-size: 32px;
+		margin-left: 42%;
+	}
+}
+@media (max-width: 1440px) {
+	.promo_subtitle {
+		margin-left: 39%;
+	}
+	.promo_title {
+		margin-left: 29%;
+	}
+	.ip_title {
+		margin-left: 713px;
+		padding-top: 66px;
+	}
+	.ip_divider {
+		top: 124px;
+	}
+	.divider_second {
+		top: 239px;
+	}
+	.ip_ip {
+		margin-left: 42%;
+	}
+}
+@media (max-width: 1024px) {
+	.promo_title {
+		margin-left: 22%;
+	}
+	.promo_subtitle {
+		margin-left: 37%;
+	}
+	.ip_title {
+		margin-left: 503px;
+	}
+	.ip_ip {
+		margin-left: 39%;
+	}
+	.divider_second {
+		top: 217px;
+	}
+}
+
+@media (max-width:768px) {
+	.promo_title {
+		margin-left: 18%;
+		font-size: 60px;
+		padding-top: 26%;
+	}
+	.promo_subtitle {
+		margin-left: 33%;
+	}
+	.ip_title {
+		margin-left: 379px;
+		padding-top: 57px;
+	}
+	.ip_ip {
+		margin-left: 36%;
+	}
+	.divider_second {
+		top: 183px!important;
+	}
+	.ip_divider {
+		top: 104px;
+	}
+}
+@media (max-width: 425px) {
+	.promo_title {
+		margin-left: 7%;
+		font-size: 43px;
+		padding-top: 55%;
+	}
+	.promo_logo {
+		transform: scale(0.4);
+		left: -82px;
+		top: -89px;
+	}
+	.promo_subtitle {
+		margin-left: 18%;
+		font-size: 26px;
+		padding-top: 17px;
+	}
+	.ip_title {
+		margin-left: 201px;
+		padding-top: 57px;
+	}
+	.ip_ip {
+		margin-left: 21%;
+		padding-top: 12%;
+	}
+	.divider_second {
+		top: 193px!important;
+	}
+}
+@media (max-width: 400px) {
+	.promo_title {
+		margin-left: 5%;
+	}
+	.promo_subtitle {
+		margin-left: 16%;
+	}
+	.ip_title {
+		margin-left: 189px;
+	}
+	.ip_ip {
+		margin-left: 19%;
+	}
+}
+
+@media (max-width: 375px) {
+	.promo_title {
+		font-size: 41px;
+		margin-left: 4%;
+	}
+	.promo_subtitle {
+		margin-left: 14%;
+	}
+	.ip_title {
+		margin-left: 175px;
+	}
+	.ip_ip {
+		margin-left: 17%;
+	}
+}
+@media (max-width: 360px) {
+	.promo_title {
+		font-size: 40px;
+		margin-left: 3%;
+	}
+	.promo_subtitle {
+		margin-left: 13%;
+	}
+	.ip_title {
+		margin-left: 165px;
+	}
+	.ip_ip {
+		margin-left: 16%;
+	}
+}
+
